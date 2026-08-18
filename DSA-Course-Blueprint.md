@@ -453,9 +453,3 @@ Roughly 75 sessions total. Steady is the pace I'd recommend alongside a full cou
 - Point to a GitHub repository that demonstrates all of the above
 
 ---
-
-## 13. To Begin
-
-Reply **START MODULE 0** for setup, or **START MODULE 1** to jump straight into foundations if your environment is already configured.
-
-Before that, tell me if you want anything changed. This is your course.
