@@ -14,7 +14,7 @@
 # 4. Mutable (list) vs immutable (str, int) behavior
 # 5. Shallow copy copies the outer container only
 #
-# Rules: 
+# RULES: 
 # Predict every output in a comment before running. 
 # Predictions stay in the file even when wrong.
 
