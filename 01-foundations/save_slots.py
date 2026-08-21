@@ -44,11 +44,3 @@ print("lIVE:", hero)
 print("SAVE:", slot1)
 print("Shared Inventory:", hero["inventory"] is slot1["inventory"])
 
-
-
-
-
-# RESULTS
-# What broke:
-# Why:
-
