@@ -10,26 +10,53 @@
 # Case-insensitive. Punctuation stripped. No imports.
 # Two of these can be built on word_frequencies instead of re-reading the text.
 
-def clean(text):
+from email.mime import text
+
+
+def clean(text): # clean the text
+    
     words = text.split()
     cleaned = []
     for word in words:
         cleaned.append(word.strip(".,!?").lower())
     return cleaned
 
-def wordCount(text):
+def wordCount(text): # word count
+    
     return len(clean(text))
 
-def uniqueWords(text):
-   return
+def uniqueWords(text): # words used
     
-def longestWord(text):
-    return
+    set(clean(text))
+    return len(set(clean(text)))
+    
+def longestWord(text): # longest word
+    
+    longest_word = ""
+    
+    for word in clean(text):
+        if len(word) > len(longest_word):
+            longest_word = word
+            
+    return longest_word
 
-def wordFrequencies(text):
-    return
+def wordFrequencies(text): # How many times the words shows up
     
-def topThreeCommonWords(text):
+    wordFreqCount = {}
+    
+    for word in clean(text):
+        if word in wordFreqCount:
+            wordFreqCount[word] += 1
+        else:
+            wordFreqCount[word] = 1
+    return wordFreqCount
+
+def topThreeWords(text): # top three words used
+    
+    
+    
+    
+    
     return
     
 print(clean("The cat sat. The MAT!"))
