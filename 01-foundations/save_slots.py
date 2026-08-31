@@ -4,12 +4,7 @@
 #
 # PURPOSE
 # Building a game save system to see how Python copies nested objects.
-# The save slot has to stay frozen while the live character keeps changing.#
-#
-# CONCEPTS
-# 1. Passing an argument binds a name
-# 2. Shallow copy duplicates the outer container only
-# 3. Deep copy duplicates every layer
+# The save slot has to stay frozen while the live character keeps changing.
 #
 # RULES:
 # Inventory must be a list inside the character.

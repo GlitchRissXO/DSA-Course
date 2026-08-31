@@ -7,13 +7,6 @@
 # Each trap probes one of: aliasing, rebinding, mutation, shallow copy,
 # or immutability.
 #
-# CONCEPTS
-# 1. `=` binds a name to an object; it never copies
-# 2. Aliasing: two names, one object
-# 3. Rebinding a name != mutating an object
-# 4. Mutable (list) vs immutable (str, int) behavior
-# 5. Shallow copy copies the outer container only
-#
 # RULES: 
 # Predict every output in a comment before running. 
 # Predictions stay in the file even when wrong.
